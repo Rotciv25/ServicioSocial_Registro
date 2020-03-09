@@ -1,0 +1,22 @@
+#encabezado{
+	text-align: center;
+	color: blue; 
+}
+
+#contenido{
+	text-align: center;
+	color: orange;
+}
+
+.renglon{
+	text-align: center;
+	padding: 5px;
+	
+	}
+
+
+
+#div_Botones{
+	text-align: center;
+	padding: 5px;
+}

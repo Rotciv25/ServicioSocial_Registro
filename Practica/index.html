@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-widht, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Practica HTML-CSS con JQuery</title>
+	<script src="js/lib/jquery-3.3.1.min.js"></script>
+	<script src="js/index1.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body>
+<div id="encabezado">
+	<h1>Clase de HTML-CSS con un poco de JQuery</h1>
+	<h1>Registro de Asistencia</h1>
+</div>
+
+ <div id="contenido">
+	<h2>Llenar el siguiente formato</h2>
+ </div>
+ </br>
+ <div id="div_nombre" class="renglon">
+ 	<label for="">Nombre(s): </label>
+ 	<input id="txt_Nombre" type="text">
+ </div>
+ <div id="div_apellidos" class="renglon">
+ 	<label for="">Apellidos: </label>
+ 	<input id="txt_Apellidos" type="text">
+ </div>
+ <div id="div_correo" class="renglon">
+ 	<label for="">Correo: </label>
+ 	<input id="txt_Correo" type="text">
+ </div>
+ <div id="divLista_Sexo" class="renglon">
+ 	<label for="">Sexo:</label>
+ 	<select id="Lista_Sexo">
+ 		<option value="Eliga_una_opcion">Eliga una opcion</option>
+ 		<option value="Masculino">Masculino</option>
+ 		<option value="Feminino">Feminino</option>
+ 		<option value="Sin_especificar">Sin especificar</option>
+ 	</select>
+ </div>
+ <div id="div_ocupacion" class="renglon">
+ 	<label for="">Ocupacion: </label>
+ 	<input id="txt_Ocupacion" type="text">
+ </div>
+ <div id="div_Botones">
+ <input id="btn_Guardar" type="button" value="Guardar"/>
+ <button id="btn_Cancelar">Cancelar</button>
+ <div id="mensajeConfirmacion">
+ 	<h1>Datos Guardados</h1>
+ </br>
+ <label for="">Nombre(s): </label><label id="lbl_Nombre" for=""></label>
+ </br>
+ <label for="">Apellidos: </label><label id="lbl_Apellidos" for=""></label>
+ </br>
+ <label for="">Sexo: </label><label id="lbl_Sexo" for=""></label>
+ </br>
+ <label for="">Correo: </label><label id="lbl_Correo" for=""></label>
+ </br>
+ <label for="">Ocupacion: </label><label id="lbl_Ocupacion" for=""></label>
+ </br>
+ </div>
+ <div id="mensajeCancelacion">
+ 	<div>
+ 		<h1>Accion Cancelada</h1>
+ 	</div>
+ </div>
+</div>
+</div>
+</body>
+
+</html>
